@@ -97,7 +97,7 @@ const displayVideos = (videos) => {
     element.classList.add("noContent");
 
     element.innerHTML = `
-        <img src="icon.png" alt="no content">
+        <img src="/icon.png" alt="no content">
         <p class="no-videos">Oops!!! Sorry there is no content here</p>`;
     videosContainer.appendChild(element);
     hideLoader();
